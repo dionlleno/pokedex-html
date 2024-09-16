@@ -1,0 +1,71 @@
+/*
+:root{
+/////
+}
+*/
+
+body{
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    background-color: red;
+}
+
+.pokedex-box{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red
+}
+
+.pokedex{
+    border: 22px black;
+    width: 280px;
+    height: 400px;
+    box-shadow: 10px 10px 5px rgb(190, 78, 78);  
+    background-color: white;
+}
+
+.pokedex ul{ 
+    padding: 0 0 0 0;
+    justify-items: auto;
+    list-style: none;
+}
+
+.pokedex ul li{
+    text-align: center;
+}
+
+
+#imagem{
+    margin: 20px;
+    width: 240px;
+    height: 200px;
+}
+#imagem img{
+    width: 240px;
+    height: 200px;
+}
+
+#nome{
+    margin: 20px;
+    width: 240px;
+    height: 20px;
+    color: black;
+}
+
+#desc{
+    margin: 20px;
+    width: 240px;
+    height: 60px;
+    color: black;
+}
+
+#status{
+    margin: 20px;
+    width: 240px;
+    height: 20px;
+    color: blacks;
+}
